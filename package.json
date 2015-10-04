@@ -1,0 +1,50 @@
+{
+  "name": "promise-finally",
+  "version": "0.0.0",
+  "description": "Simple wrapper to run promise \"finally\" logic",
+  "main": "dist/promise-finally.js",
+  "typings": "dist/promise-finally.d.ts",
+  "files": [
+    "dist/",
+    "LICENSE"
+  ],
+  "scripts": {
+    "lint": "# TODO",
+    "build": "npm run build-ts",
+    "build-ts": "rm -rf dist/ && tsc",
+    "test-spec": "blue-tape dist/**/*.spec.js",
+    "test-cov": "istanbul cover --print none -x dist/**/*.spec.js blue-tape -- dist/**/*.spec.js | tap-dot",
+    "test": "npm run build && npm run lint && npm run test-cov",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/blakeembrey/promise-finally.git"
+  },
+  "keywords": [
+    "promise",
+    "finally",
+    "done",
+    "always",
+    "complete",
+    "cleanup"
+  ],
+  "author": {
+    "name": "Blake Embrey",
+    "email": "hello@blakeembrey.com",
+    "url": "http://blakeembrey.me"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blakeembrey/promise-finally/issues"
+  },
+  "homepage": "https://github.com/blakeembrey/promise-finally",
+  "devDependencies": {
+    "blue-tape": "^0.1.10",
+    "es6-promise": "^3.0.2",
+    "istanbul": "^0.3.6",
+    "pre-commit": "^1.0.6",
+    "tap-dot": "^1.0.0",
+    "typescript": "^1.6.2"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "outDir": "dist",
+    "module": "commonjs",
+    "declaration": true,
+    "noImplicitAny": true,
+    "removeComments": false,
+    "sourceMap": true
+  },
+  "files": [
+    "src/promise-finally.ts",
+    "src/promise-finally.spec.ts",
+    "src/typings/blue-tape.d.ts",
+    "typings/tsd.d.ts"
+  ]
+}
