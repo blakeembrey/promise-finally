@@ -42,6 +42,7 @@
   "homepage": "https://github.com/blakeembrey/promise-finally",
   "devDependencies": {
     "blue-tape": "^0.1.10",
+    "bluebird": "^3.0.5",
     "istanbul": "^0.3.6",
     "pre-commit": "^1.0.6",
     "tap-dot": "^1.0.0",
