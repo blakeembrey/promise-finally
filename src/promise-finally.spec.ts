@@ -1,7 +1,6 @@
 import test = require('blue-tape')
+import Promise = require('native-or-bluebird')
 import promiseFinally from './promise-finally'
-
-require('es6-promise').polyfill()
 
 test('promise-finally', t => {
   t.test('run on resolve', t => {

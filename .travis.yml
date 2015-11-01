@@ -13,8 +13,8 @@ node_js:
   - "4"
 
 before_install:
-  - npm install tsd -g
-  - tsd install
+  - npm install typings -g
+  - typings install
 
 after_script:
   - npm install coveralls@2
