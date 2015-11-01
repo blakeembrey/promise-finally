@@ -15,7 +15,7 @@ npm install promise-finally --save
 
 ## Usage
 
-Requires `Promise` to exist globally.
+Uses [`native-or-bluebird`](https://github.com/normalize/native-or-bluebird).
 
 ```js
 import promiseFinally from 'promise-finally'

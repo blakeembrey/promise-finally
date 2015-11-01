@@ -1,3 +1,5 @@
+import Promise = require('native-or-bluebird')
+
 export default function promiseFinally (value: any, cb: Function) {
   return Promise.resolve(value)
     .then(

@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "native-or-bluebird": "https://raw.githubusercontent.com/typings/typed-native-or-bluebird/e9b7a479d68931ef88895d578860456bfbe91faa/typings.json"
+  },
+  "devDependencies": {
+    "blue-tape": "https://raw.githubusercontent.com/typings/typed-blue-tape/a4e41a85d6f760e7c60088127968eae7d3a556fa/typings.json"
+  },
+  "ambientDependencies": {
+    "node": "https://raw.githubusercontent.com/borisyankov/DefinitelyTyped/98d3168c2c570352a3a7393788e2ec9fbb08ade6/node/node.d.ts"
+  }
+}
