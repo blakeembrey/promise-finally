@@ -1,6 +1,6 @@
 {
   "name": "promise-finally",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Simple wrapper to run promise \"finally\" logic",
   "main": "dist/promise-finally.js",
   "typings": "dist/promise-finally.d.ts",
