@@ -15,7 +15,7 @@ npm install promise-finally --save
 
 ## Usage
 
-Uses [`native-or-bluebird`](https://github.com/normalize/native-or-bluebird).
+Uses [`any-promise`](https://github.com/kevinbeaty/any-promise) internally.
 
 ```js
 import promiseFinally from 'promise-finally'

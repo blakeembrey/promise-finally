@@ -1,4 +1,4 @@
-import Promise = require('native-or-bluebird')
+import Promise = require('any-promise')
 
 export default function promiseFinally (value: any, cb: Function) {
   return Promise.resolve(value)

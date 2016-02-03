@@ -49,6 +49,6 @@
     "typescript": "^1.6.2"
   },
   "dependencies": {
-    "native-or-bluebird": "^1.2.0"
+    "any-promise": "^1.0.0"
   }
 }
