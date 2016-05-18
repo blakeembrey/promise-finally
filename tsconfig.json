@@ -11,6 +11,6 @@
   "files": [
     "src/promise-finally.ts",
     "src/promise-finally.spec.ts",
-    "typings/main.d.ts"
+    "typings/index.d.ts"
   ]
 }

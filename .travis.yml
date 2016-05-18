@@ -12,10 +12,6 @@ node_js:
   - "0.12"
   - "4"
 
-before_install:
-  - npm install typings -g
-  - typings install
-
 after_script:
   - npm install coveralls@2
   - cat ./coverage/lcov.info | coveralls
