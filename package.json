@@ -47,7 +47,7 @@
     "pre-commit": "^1.0.6",
     "tap-dot": "^1.0.0",
     "tslint": "^3.10.2",
-    "tslint-config-standard": "^1.0.0",
+    "tslint-config-standard": "^1.1.0",
     "typescript": "^1.6.2",
     "typings": "^1.0.4"
   },
