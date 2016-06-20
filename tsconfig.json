@@ -6,7 +6,8 @@
     "declaration": true,
     "noImplicitAny": true,
     "removeComments": false,
-    "sourceMap": true
+    "sourceMap": true,
+    "inlineSources": true
   },
   "files": [
     "src/promise-finally.ts",
