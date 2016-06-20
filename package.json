@@ -44,7 +44,6 @@
     "blue-tape": "^0.2.0",
     "bluebird": "^3.0.5",
     "istanbul": "^0.4.3",
-    "pre-commit": "^1.0.6",
     "tap-dot": "^1.0.0",
     "tslint": "^3.10.2",
     "tslint-config-standard": "^1.0.0",
