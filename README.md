@@ -15,8 +15,6 @@ npm install promise-finally --save
 
 ## Usage
 
-Uses [`any-promise`](https://github.com/kevinbeaty/any-promise) internally.
-
 ```js
 import promiseFinally from 'promise-finally'
 

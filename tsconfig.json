@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
     "target": "es5",
+    "lib": [
+      "es5",
+      "es2015.promise"
+    ],
     "outDir": "dist",
     "module": "commonjs",
     "declaration": true,
@@ -9,9 +13,8 @@
     "sourceMap": true,
     "inlineSources": true
   },
-  "files": [
-    "src/promise-finally.ts",
-    "src/promise-finally.spec.ts",
-    "typings/index.d.ts"
+  "include": [
+    "src/**/*.ts",
+    "typings/**/*.ts"
   ]
 }

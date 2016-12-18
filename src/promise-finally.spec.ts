@@ -1,5 +1,4 @@
 import test = require('blue-tape')
-import Promise = require('any-promise')
 import promiseFinally from './promise-finally'
 
 test('promise-finally', t => {
