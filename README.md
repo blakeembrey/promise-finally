@@ -1,11 +1,10 @@
 # Promise Finally
 
+[![NPM version](https://img.shields.io/npm/v/promise-finally.svg?style=flat)](https://npmjs.org/package/promise-finally)
+[![NPM downloads](https://img.shields.io/npm/dm/promise-finally.svg?style=flat)](https://npmjs.org/package/promise-finally)
+[![Build status](https://img.shields.io/travis/blakeembrey/promise-finally.svg?style=flat)](https://travis-ci.org/blakeembrey/promise-finally)
+[![Test coverage](https://img.shields.io/coveralls/blakeembrey/promise-finally.svg?style=flat)](https://coveralls.io/r/blakeembrey/promise-finally?branch=master)
 [![Greenkeeper badge](https://badges.greenkeeper.io/blakeembrey/promise-finally.svg)](https://greenkeeper.io/)
-
-[![NPM version][npm-image]][npm-url]
-[![NPM downloads][downloads-image]][downloads-url]
-[![Build status][travis-image]][travis-url]
-[![Test coverage][coveralls-image]][coveralls-url]
 
 > Simple wrapper to run promise "finally" logic.
 
@@ -28,12 +27,3 @@ promiseFinally(p, () => ...)
 ## License
 
 MIT
-
-[npm-image]: https://img.shields.io/npm/v/promise-finally.svg?style=flat
-[npm-url]: https://npmjs.org/package/promise-finally
-[downloads-image]: https://img.shields.io/npm/dm/promise-finally.svg?style=flat
-[downloads-url]: https://npmjs.org/package/promise-finally
-[travis-image]: https://img.shields.io/travis/blakeembrey/promise-finally.svg?style=flat
-[travis-url]: https://travis-ci.org/blakeembrey/promise-finally
-[coveralls-image]: https://img.shields.io/coveralls/blakeembrey/promise-finally.svg?style=flat
-[coveralls-url]: https://coveralls.io/r/blakeembrey/promise-finally?branch=master
