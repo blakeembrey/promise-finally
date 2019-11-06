@@ -8,12 +8,8 @@ notifications:
     on_failure: change
 
 node_js:
-  - '4'
+  - stable
 
 after_script:
   - npm install coveralls@2
   - cat ./coverage/lcov.info | coveralls
-
-env:
-  global:
-    secure: Y2zo38axiPT1dEBSP77ZyY6CdvjXV2iZ/oqiDXC8LPJ1WLlYk6W1CtZ8oysKEkRPkUuPaJ+2vt7Q0/cy/tGwLnC8W5qJvcFUeC8Zdg1EQ/KOYsQMJchiCBL2liwUnjhuKnxEaV74yTHCIYNFJK+0KYsiwtxyfwEua7kbseWq+50=
